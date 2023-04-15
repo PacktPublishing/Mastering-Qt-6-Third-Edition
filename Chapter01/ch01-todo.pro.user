@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 9.0.0, 2023-02-18T18:46:26. -->
+<!-- Written by QtCreator 9.0.0, 2023-03-17T20:46:08. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -236,8 +236,9 @@
     <valuelist type="QVariantList" key="CustomOutputParsers"/>
     <value type="int" key="PE.EnvironmentAspect.Base">2</value>
     <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:C:/Users/kf6gp/Projects/Code/Mastering-Qt-5-Second-Editon/Chapter01/ch01-todo.pro</value>
-    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">C:/Users/kf6gp/Projects/Code/Mastering-Qt-5-Second-Editon/Chapter01/ch01-todo.pro</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">ch01-todo2</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:C:/Users/kf6gp/Projects/Code/Mastering-Qt-6-Third-Edition/Chapter01/ch01-todo.pro</value>
+    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">C:/Users/kf6gp/Projects/Code/Mastering-Qt-6-Third-Edition/Chapter01/ch01-todo.pro</value>
     <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
     <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
