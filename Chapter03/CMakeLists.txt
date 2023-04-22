@@ -10,8 +10,6 @@ find_package(Qt6 COMPONENTS Core Gui Widgets Charts REQUIRED)
 
 qt_standard_project_setup()
 
-message(${CMAKE_SYSTEM_NAME})
-
 include_directories(
 	${Qt6Core_INCLUDE_DIRS}
 	${Qt6Widgets_INCLUDE_DIRS}
@@ -32,7 +30,7 @@ add_executable(ch03-sysinfo
   SysInfoWidget.cpp
 )
 
-
+target_link_libraries(ch03-sysinfo PUBLIC Qt6Core Qt6Gui Qt6Widgets Qt6Charts)
 
 if (${CMAKE_SYSTEM_NAME} STREQUAL "Windows")
   target_sources(ch03-sysinfo PRIVATE SysInfoWindowsImpl.cpp)
@@ -47,9 +45,11 @@ endif ()
 
 if (${CMAKE_SYSTEM_NAME} STREQUAL "macOS")
   target_sources(ch03-sysinfo PRIVATE SysInfoMacImpl.cpp)
+  set_target_properties(ch03-sysinfo PROPERTIES
+				   MACOX_BUNDLE ON
+				   WIN32_EXECUTABLE ON
+)
 endif ()
-
-target_link_libraries(ch03-sysinfo PUBLIC Qt6Core Qt6Gui Qt6Widgets Qt6Charts)
 
 set_target_properties(ch03-sysinfo PROPERTIES
 				   MACOX_BUNDLE ON
