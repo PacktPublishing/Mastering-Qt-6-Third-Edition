@@ -47,7 +47,6 @@ if (${CMAKE_SYSTEM_NAME} STREQUAL "macOS")
   target_sources(ch03-sysinfo PRIVATE SysInfoMacImpl.cpp)
   set_target_properties(ch03-sysinfo PROPERTIES
 				   MACOX_BUNDLE ON
-				   WIN32_EXECUTABLE ON
 )
 endif ()
 
