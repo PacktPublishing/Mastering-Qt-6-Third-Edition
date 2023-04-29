@@ -3,7 +3,7 @@ find_package(Qt6 6.5 REQUIRED COMPONENTS Quick Sql)
 qt_standard_project_setup(REQUIRES 6.5)
 
 
-add_library(gallery-core SHARED
+add_library(gallery-core STATIC
     Album.cpp
     AlbumDao.cpp
     AlbumModel.cpp
